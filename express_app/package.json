@@ -1,0 +1,28 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node blockchain.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/units": "^5.7.0",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "eth-crypto": "^2.6.0",
+    "ethers": "^5.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.20",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
